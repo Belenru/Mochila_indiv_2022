@@ -1,0 +1,14 @@
+Iniciar un repositorio local : git init 
+Identificar usuario en el repositorio : git config user.name
+Identificar email del usuario en el rep. : git config user.email 
+Agregar cambios desde working directory a staging area para luego ser "commiteados" : git add "nombre archivo" ó git add . (agrega todos los archivos)
+Ver el estado de nuestros archivos (Untracked) : git status 
+Crear un commit de nuestros archivos : git commit -m "comentario identificatorio" 
+Visualizar los commits creados : git log 
+Crear un repositorio remoto : git remote add origin "https: ... (link proporcionado por Github)" 
+Subir archivos del repositorio local al repositorio remoto : git push origin "nombre de la rama donde quiero subir los archivos" 
+Crea una copa exacta de los archivos del repositorio remoto al local : git clone "nombre URL exacta" (solo se ejecuta 1 vez) 
+Descargar los cambios del repositorio remoto al local : git pull origin "nombre de la rama de donde quiero descargar los archivos"
+Crear una nueva rama : git branch "nombre de la rama" 
+Eliminar una rama : git branch -d "nombre de la rama" 
+Moverse de una rama a otra : git git checkout "nombre de la rama" 
